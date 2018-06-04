@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B36535E207D27F1007BAE57 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B36535D207D27F1007BAE57 /* LoginVC.swift */; };
+		3B7A2A44207703C40003B1AB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A43207703C40003B1AB /* GradientView.swift */; };
+		3B7A2A4620770D080003B1AB /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A4520770D080003B1AB /* RoundImageView.swift */; };
+		3B7A2A4820770E110003B1AB /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A4720770E110003B1AB /* RoundedShadowView.swift */; };
+		3B7A2A4A20770F560003B1AB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A4920770F560003B1AB /* CircleView.swift */; };
+		3B7A2A4C207711760003B1AB /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A4B207711760003B1AB /* RoundedShadowButton.swift */; };
+		3B7A2A4F207734260003B1AB /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A4E207734260003B1AB /* UIViewExt.swift */; };
+		3B7A2A51207737650003B1AB /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A50207737650003B1AB /* LeftSidePanelVC.swift */; };
+		3B7A2A53207738000003B1AB /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A52207738000003B1AB /* ContainerVC.swift */; };
+		3B7A2A5820773E4C0003B1AB /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A2A5720773E4C0003B1AB /* CenterVCDelegate.swift */; };
+		3BC8BC75206D4DB1000F0674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8BC74206D4DB1000F0674 /* AppDelegate.swift */; };
+		3BC8BC77206D4DB1000F0674 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8BC76206D4DB1000F0674 /* HomeVC.swift */; };
+		3BC8BC7A206D4DB1000F0674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC8BC78206D4DB1000F0674 /* Main.storyboard */; };
+		3BC8BC7C206D4DB1000F0674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC8BC7B206D4DB1000F0674 /* Assets.xcassets */; };
+		3BC8BC7F206D4DB1000F0674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC8BC7D206D4DB1000F0674 /* LaunchScreen.storyboard */; };
+		B654B0E4D78A5CBDE97F07FC /* Pods_SUREWalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4017D3EEF24C3D0AF53FDFD6 /* Pods_SUREWalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B36535D207D27F1007BAE57 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3B7A2A43207703C40003B1AB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		3B7A2A4520770D080003B1AB /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		3B7A2A4720770E110003B1AB /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		3B7A2A4920770F560003B1AB /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		3B7A2A4B207711760003B1AB /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		3B7A2A4E207734260003B1AB /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		3B7A2A50207737650003B1AB /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		3B7A2A52207738000003B1AB /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		3B7A2A5720773E4C0003B1AB /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		3BC8BC71206D4DB1000F0674 /* SUREWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUREWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC8BC74206D4DB1000F0674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BC8BC76206D4DB1000F0674 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		3BC8BC79206D4DB1000F0674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BC8BC7B206D4DB1000F0674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BC8BC7E206D4DB1000F0674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BC8BC80206D4DB1000F0674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4017D3EEF24C3D0AF53FDFD6 /* Pods_SUREWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SUREWalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D92D68ED76C03E43993C04E /* Pods-SUREWalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUREWalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SUREWalk/Pods-SUREWalk.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C4ACFB5D55B30EA7B70A53 /* Pods-SUREWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUREWalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-SUREWalk/Pods-SUREWalk.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC8BC6E206D4DB1000F0674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B654B0E4D78A5CBDE97F07FC /* Pods_SUREWalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7A2A3F207703680003B1AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B7A2A41207703790003B1AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8BC76206D4DB1000F0674 /* HomeVC.swift */,
+				3B7A2A50207737650003B1AB /* LeftSidePanelVC.swift */,
+				3B7A2A52207738000003B1AB /* ContainerVC.swift */,
+				3B36535D207D27F1007BAE57 /* LoginVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B7A2A42207703870003B1AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A2A43207703C40003B1AB /* GradientView.swift */,
+				3B7A2A4520770D080003B1AB /* RoundImageView.swift */,
+				3B7A2A4720770E110003B1AB /* RoundedShadowView.swift */,
+				3B7A2A4920770F560003B1AB /* CircleView.swift */,
+				3B7A2A4B207711760003B1AB /* RoundedShadowButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B7A2A4D207734000003B1AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A2A4E207734260003B1AB /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3B7A2A5620773E3A0003B1AB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A2A5720773E4C0003B1AB /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3BC8BC68206D4DB1000F0674 = {
+			isa = PBXGroup;
+			children = (
+				3BC8BC73206D4DB1000F0674 /* SUREWalk */,
+				3BC8BC72206D4DB1000F0674 /* Products */,
+				B10B2C515419D9D5525DDACC /* Pods */,
+				72F2AF7FC7336B4DEE872960 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC8BC72206D4DB1000F0674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8BC71206D4DB1000F0674 /* SUREWalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC8BC73206D4DB1000F0674 /* SUREWalk */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A2A5620773E3A0003B1AB /* Protocols */,
+				3B7A2A4D207734000003B1AB /* Extensions */,
+				3B7A2A42207703870003B1AB /* View */,
+				3B7A2A41207703790003B1AB /* Controller */,
+				3B7A2A3F207703680003B1AB /* Model */,
+				3BC8BC74206D4DB1000F0674 /* AppDelegate.swift */,
+				3BC8BC78206D4DB1000F0674 /* Main.storyboard */,
+				3BC8BC7B206D4DB1000F0674 /* Assets.xcassets */,
+				3BC8BC7D206D4DB1000F0674 /* LaunchScreen.storyboard */,
+				3BC8BC80206D4DB1000F0674 /* Info.plist */,
+			);
+			path = SUREWalk;
+			sourceTree = "<group>";
+		};
+		72F2AF7FC7336B4DEE872960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4017D3EEF24C3D0AF53FDFD6 /* Pods_SUREWalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B10B2C515419D9D5525DDACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D92D68ED76C03E43993C04E /* Pods-SUREWalk.debug.xcconfig */,
+				D6C4ACFB5D55B30EA7B70A53 /* Pods-SUREWalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC8BC70206D4DB1000F0674 /* SUREWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC8BC83206D4DB1000F0674 /* Build configuration list for PBXNativeTarget "SUREWalk" */;
+			buildPhases = (
+				A41E0287F5C5E94D8B8847C2 /* [CP] Check Pods Manifest.lock */,
+				3BC8BC6D206D4DB1000F0674 /* Sources */,
+				3BC8BC6E206D4DB1000F0674 /* Frameworks */,
+				3BC8BC6F206D4DB1000F0674 /* Resources */,
+				2C011551C517FDBB2AA4FE87 /* [CP] Embed Pods Frameworks */,
+				2C70C406C8DFACBA4C444004 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SUREWalk;
+			productName = SUREWalk;
+			productReference = 3BC8BC71206D4DB1000F0674 /* SUREWalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC8BC69206D4DB1000F0674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Dany Munoz";
+				TargetAttributes = {
+					3BC8BC70206D4DB1000F0674 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = YVF9KH3X56;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BC8BC6C206D4DB1000F0674 /* Build configuration list for PBXProject "SUREWalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BC8BC68206D4DB1000F0674;
+			productRefGroup = 3BC8BC72206D4DB1000F0674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC8BC70206D4DB1000F0674 /* SUREWalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BC8BC6F206D4DB1000F0674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC8BC7F206D4DB1000F0674 /* LaunchScreen.storyboard in Resources */,
+				3BC8BC7C206D4DB1000F0674 /* Assets.xcassets in Resources */,
+				3BC8BC7A206D4DB1000F0674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C011551C517FDBB2AA4FE87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SUREWalk/Pods-SUREWalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SUREWalk/Pods-SUREWalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C70C406C8DFACBA4C444004 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SUREWalk/Pods-SUREWalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A41E0287F5C5E94D8B8847C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SUREWalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC8BC6D206D4DB1000F0674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7A2A51207737650003B1AB /* LeftSidePanelVC.swift in Sources */,
+				3B7A2A4C207711760003B1AB /* RoundedShadowButton.swift in Sources */,
+				3B36535E207D27F1007BAE57 /* LoginVC.swift in Sources */,
+				3B7A2A4A20770F560003B1AB /* CircleView.swift in Sources */,
+				3BC8BC77206D4DB1000F0674 /* HomeVC.swift in Sources */,
+				3B7A2A53207738000003B1AB /* ContainerVC.swift in Sources */,
+				3B7A2A4620770D080003B1AB /* RoundImageView.swift in Sources */,
+				3B7A2A5820773E4C0003B1AB /* CenterVCDelegate.swift in Sources */,
+				3B7A2A4F207734260003B1AB /* UIViewExt.swift in Sources */,
+				3B7A2A4820770E110003B1AB /* RoundedShadowView.swift in Sources */,
+				3BC8BC75206D4DB1000F0674 /* AppDelegate.swift in Sources */,
+				3B7A2A44207703C40003B1AB /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BC8BC78206D4DB1000F0674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC8BC79206D4DB1000F0674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BC8BC7D206D4DB1000F0674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC8BC7E206D4DB1000F0674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BC8BC81206D4DB1000F0674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BC8BC82206D4DB1000F0674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BC8BC84206D4DB1000F0674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D92D68ED76C03E43993C04E /* Pods-SUREWalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YVF9KH3X56;
+				INFOPLIST_FILE = SUREWalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = longhorndevelopment.SUREWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3BC8BC85206D4DB1000F0674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C4ACFB5D55B30EA7B70A53 /* Pods-SUREWalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YVF9KH3X56;
+				INFOPLIST_FILE = SUREWalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = longhorndevelopment.SUREWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC8BC6C206D4DB1000F0674 /* Build configuration list for PBXProject "SUREWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC8BC81206D4DB1000F0674 /* Debug */,
+				3BC8BC82206D4DB1000F0674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC8BC83206D4DB1000F0674 /* Build configuration list for PBXNativeTarget "SUREWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC8BC84206D4DB1000F0674 /* Debug */,
+				3BC8BC85206D4DB1000F0674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BC8BC69206D4DB1000F0674 /* Project object */;
+}
